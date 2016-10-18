@@ -1,0 +1,16 @@
+Package: shinyChecklist
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: person("Michael", "Heiser", email = "mheiser@gmail.com", role = c("aut", "cre"))
+Maintainer: Michael Heiser <mheiser@gmail.com>
+Description: Provides a very simple checklist for Rstudio. Set your tasks and monitor your progress in your work environment without having to leave Rstudio.
+Depends:
+    R (>= 3.0.0)
+Imports:
+    shiny (>= 0.13),
+    miniUI (>= 0.1.1),
+    rstudioapi (>= 0.4)
+License: MIT
+LazyData: TRUE
+RoxygenNote: 5.0.1
